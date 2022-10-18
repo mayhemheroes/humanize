@@ -1,0 +1,6 @@
+project: humanizer
+target: human-fuzz
+
+cmds:
+  - cmd: /src/mayhem/fuzz_human.py
+    libfuzzer: true
